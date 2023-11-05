@@ -11,6 +11,6 @@ db = mysql.connector.connect(
 cursor = db.cursor()
 
 # CREATE A DATABASE FOR PROJECT
-cursor.execute('CREATE DATABASE modelDB')
+cursor.execute('CREATE DATABASE resultDB')
 
 print("Database created successfully")
